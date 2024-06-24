@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .all {
+            width: 1950px;
+            height: 700px;
+            background-image: url(bg.jpg);
+            background-size: 100% 100%;
+            position: relative;
+
+        }
+
+        .common {
+            width: 150px;
+            height: 150px;
+            position: absolute;
+
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+
+        }
+
+        .car1 {
+            animation-name: car1;
+            top: 30px;
+
+        }
+
+        @keyframes car1 {
+            0% {
+                transform: translateX(-300px);
+            }
+
+            100% {
+                transform: translateX(1700px);
+            }
+
+        }
+
+        .car2 {
+            animation-name: car2;
+            top: 80px;
+        }
+
+        @keyframes car2 {
+            0% {
+                transform: translateX(1700px);
+            }
+
+            100% {
+                transform: translateX(-300px);
+            }
+
+        }
+
+        .common2 {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            animation-duration: 8s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+
+        }
+
+        .car3 {
+            animation-name: car3;
+            top: 200px;
+        }
+
+        @keyframes car3 {
+            0% {
+                transform: translateX(-300px);
+            }
+
+            100% {
+                transform: translateX(1700px);
+            }
+
+        }
+
+        .car4 {
+            animation-name: car4;
+            top: 250px;
+        }
+
+        @keyframes car4 {
+            0% {
+                transform: translateX(-300px);
+            }
+
+            100% {
+                transform: translateX(1700px);
+            }
+        }
+
+        .common3 {
+            width: 100px;
+            height: 100px;
+            animation-duration: 8s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            position: absolute;
+        }
+
+        .car5 {
+            animation-name: car5;
+            top: 360px;
+        }
+
+        @keyframes car5 {
+            0% {
+                transform: translateX(-300px);
+            }
+
+            100% {
+                transform: translateX(1700px);
+            }
+        }
+
+        .car6 {
+            top: 410px;
+            animation-name: car6;
+        }
+
+        @keyframes car6 {
+            0% {
+                transform: translateX(-300px);
+            }
+
+            100% {
+                transform: translateX(1700px);
+            }
+        }
+
+        .car7 {
+            top: 510px;
+            animation-name: car7;
+        }
+
+        @keyframes car7 {
+            0% {
+                transform: translateX(-300px);
+            }
+
+            100% {
+                transform: translateX(1700px);
+            }
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>car animation</title>
+</head>
+
+<body>
+    <div class="all"></div>
+    <img class="common car1" src="right2.png" alt="car">
+    <img class="common car2" src="wrong2.png" alt="car">
+
+    <img class="common2 car3" src="right2.png" alt="car">
+    <img class="common2 car4" src="right2.png" alt="car">
+
+    <img class="common3 car5" src="right2.png" alt="car">
+    <img class="common3 car6" src="right2.png" alt="car">
+
+    <img class="common3 car7" src="right2.png" alt="car">
+</body>
+
+</html>
